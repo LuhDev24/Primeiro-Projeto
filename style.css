@@ -101,11 +101,16 @@ footer{
 		background-color:#fff;
 }
 @media (max-width: 768px) {
-    .hero {
-        padding: 20px;
-        margin: 10px;
+    .txt-leads h1 {
+        font-size: 1.8em; 
     }
-    .formulario{
+
+    .txt-leads p {
+        font-size: 1.1em; 
+    }
+}
+ .form {
+        width: 100%;
         padding: 10px;
         margin: 10px;
-}
+    }
