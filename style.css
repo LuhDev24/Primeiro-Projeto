@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:borde-box;
+	font-family:"Outfit",sans-serif;
+	}
+html{
+	height:100vh;
+}
+body{
+	height:100vh;
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+	 background-repeat: no-repeat;
+	 background-position: center center;
+	 background-size: cover;
+}
+.container{
+	max-widht:1280px;
+	margin:auto;
+}
+.flex{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	height:100vh;
+}
+.txt-leads{
+	text-align:center;
+}
+.txt-leads h1{
+	color:#000000;
+	font-size:2em;
+	font-weight:700;
+	tex-align:center;
+}
+.txt-leads h1 span{
+	font-size:2em;
+	font-weight:700;
+}
+.txt-leads img{
+	 width: 200px; 
+	max-widht:100%;
+	transparent:opacity:1;
+}
+.txt-leads p{
+	color:#000000;
+	font-size:1.3em;
+}
+.txt-leads p span{
+	font-size:1.6em;
+	font-weight:600;
+}
+form{
+	width:100%;
+	background-color:#00000066;
+	border-radius:20px;
+	padding:40px;
+}
+form h2{
+	text-align:center;
+	font-size:2em;
+	color:#000000;
+	line-right:20px;
+	margin-box:60px;
+}
+form h2 span{
+	font-size:0.5em;
+	}
+.input-box{
+	margin-botton:20px;
+}
+.input-box label{
+	display:block;
+	color:#000000;
+}
+.input-box input{
+	width:100%;
+	padding:10px;
+	outline:none;
+	border-radius:10px;
+	border:none;
+}
+.btn{
+	text-align:center;
+	margin-top:40px;
+}
+#emailButton{
+	width:140px;
+	height:50px;
+	border:0;
+	background-color:#000000;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:700;
+	border-radius:10px;
+	cursor:pointer;
+	}
+footer{
+		color:black;
+		font-size:10px;
+		background-color:#fff;
+}
