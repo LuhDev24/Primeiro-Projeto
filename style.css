@@ -100,3 +100,12 @@ footer{
 		font-size:10px;
 		background-color:#fff;
 }
+@media (max-width: 768px) {
+    .hero {
+        padding: 20px;
+        margin: 10px;
+    }
+    .formulario{
+        padding: 10px;
+        margin: 10px;
+}
